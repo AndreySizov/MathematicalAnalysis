@@ -12,6 +12,39 @@
 		5535203E1EB7A824005ABE4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5535203C1EB7A824005ABE4B /* Main.storyboard */; };
 		553520401EB7A824005ABE4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5535203F1EB7A824005ABE4B /* Assets.xcassets */; };
 		553520431EB7A824005ABE4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 553520411EB7A824005ABE4B /* LaunchScreen.storyboard */; };
+		5535204B1EB7AC94005ABE4B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5535204A1EB7AC94005ABE4B /* TableViewController.swift */; };
+		5535204F1EB7ACD9005ABE4B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5535204E1EB7ACD9005ABE4B /* TableViewCell.swift */; };
+		553520551EB7B979005ABE4B /* ItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553520541EB7B979005ABE4B /* ItemVC.swift */; };
+		554E5A2E1EEEBE5E0092B1A8 /* UserActivityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554E5A2D1EEEBE5E0092B1A8 /* UserActivityModel.swift */; };
+		555780801EED66FB00BA253B /* TopicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5557807F1EED66FB00BA253B /* TopicTableViewController.swift */; };
+		555780821EED671700BA253B /* PointTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555780811EED671700BA253B /* PointTableViewController.swift */; };
+		555780841EED673D00BA253B /* PointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555780831EED673D00BA253B /* PointViewController.swift */; };
+		555780881EED677700BA253B /* ExtraInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555780871EED677700BA253B /* ExtraInfoViewController.swift */; };
+		5557808A1EED679D00BA253B /* PracticeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555780891EED679D00BA253B /* PracticeTableViewController.swift */; };
+		5557808C1EED67AC00BA253B /* PracticeTaskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5557808B1EED67AC00BA253B /* PracticeTaskTableViewController.swift */; };
+		5557808E1EED67CD00BA253B /* SolutionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5557808D1EED67CD00BA253B /* SolutionViewController.swift */; };
+		555780901EED67E800BA253B /* FormulaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5557808F1EED67E800BA253B /* FormulaViewController.swift */; };
+		555780921EED680200BA253B /* FormulaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555780911EED680200BA253B /* FormulaTableViewController.swift */; };
+		555780941EED681600BA253B /* ResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555780931EED681600BA253B /* ResultTableViewController.swift */; };
+		555780961EED6A3D00BA253B /* TopicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555780951EED6A3D00BA253B /* TopicTableViewCell.swift */; };
+		555780981EED6A4B00BA253B /* PointTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555780971EED6A4B00BA253B /* PointTableViewCell.swift */; };
+		5557809C1EED6A7B00BA253B /* PracticeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5557809B1EED6A7B00BA253B /* PracticeTableViewCell.swift */; };
+		5557809E1EED6A8E00BA253B /* PracticeTaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5557809D1EED6A8E00BA253B /* PracticeTaskTableViewCell.swift */; };
+		555780A01EED6AB100BA253B /* FormulaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5557809F1EED6AB100BA253B /* FormulaTableViewCell.swift */; };
+		555780A21EED6AC400BA253B /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555780A11EED6AC400BA253B /* ResultTableViewCell.swift */; };
+		555780A41EED74F100BA253B /* EnterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555780A31EED74F100BA253B /* EnterViewController.swift */; };
+		555780A91EED83A900BA253B /* RegisterHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555780A81EED83A900BA253B /* RegisterHomeModel.swift */; };
+		555780AB1EED855900BA253B /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555780AA1EED855900BA253B /* RegisterModel.swift */; };
+		555780AD1EED8AB300BA253B /* TopicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555780AC1EED8AB300BA253B /* TopicModel.swift */; };
+		555780AF1EEDCA3000BA253B /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555780AE1EEDCA3000BA253B /* TaskModel.swift */; };
+		555780B11EEDCA3E00BA253B /* SolutionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555780B01EEDCA3E00BA253B /* SolutionModel.swift */; };
+		555780B31EEDCA6300BA253B /* AnswerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555780B21EEDCA6300BA253B /* AnswerModel.swift */; };
+		555780B51EEDCA7800BA253B /* FormulaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555780B41EEDCA7800BA253B /* FormulaModel.swift */; };
+		555780B71EEDCA8A00BA253B /* ExtraInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555780B61EEDCA8A00BA253B /* ExtraInfoModel.swift */; };
+		555780B91EEDCAAA00BA253B /* PointModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555780B81EEDCAAA00BA253B /* PointModel.swift */; };
+		5558B9F21EE99C5500E5E381 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5558B9F11EE99C5500E5E381 /* HomeModel.swift */; };
+		5558B9F41EE99C6700E5E381 /* PartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5558B9F31EE99C6700E5E381 /* PartModel.swift */; };
+		556C3DDC1EB8D60A00B1CE02 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556C3DDB1EB8D60A00B1CE02 /* AnswerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +55,39 @@
 		5535203F1EB7A824005ABE4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		553520421EB7A824005ABE4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		553520441EB7A824005ABE4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5535204A1EB7AC94005ABE4B /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		5535204E1EB7ACD9005ABE4B /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		553520541EB7B979005ABE4B /* ItemVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemVC.swift; sourceTree = "<group>"; };
+		554E5A2D1EEEBE5E0092B1A8 /* UserActivityModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserActivityModel.swift; sourceTree = "<group>"; };
+		5557807F1EED66FB00BA253B /* TopicTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicTableViewController.swift; sourceTree = "<group>"; };
+		555780811EED671700BA253B /* PointTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointTableViewController.swift; sourceTree = "<group>"; };
+		555780831EED673D00BA253B /* PointViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointViewController.swift; sourceTree = "<group>"; };
+		555780871EED677700BA253B /* ExtraInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtraInfoViewController.swift; sourceTree = "<group>"; };
+		555780891EED679D00BA253B /* PracticeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PracticeTableViewController.swift; sourceTree = "<group>"; };
+		5557808B1EED67AC00BA253B /* PracticeTaskTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PracticeTaskTableViewController.swift; sourceTree = "<group>"; };
+		5557808D1EED67CD00BA253B /* SolutionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolutionViewController.swift; sourceTree = "<group>"; };
+		5557808F1EED67E800BA253B /* FormulaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormulaViewController.swift; sourceTree = "<group>"; };
+		555780911EED680200BA253B /* FormulaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormulaTableViewController.swift; sourceTree = "<group>"; };
+		555780931EED681600BA253B /* ResultTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultTableViewController.swift; sourceTree = "<group>"; };
+		555780951EED6A3D00BA253B /* TopicTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicTableViewCell.swift; sourceTree = "<group>"; };
+		555780971EED6A4B00BA253B /* PointTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointTableViewCell.swift; sourceTree = "<group>"; };
+		5557809B1EED6A7B00BA253B /* PracticeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PracticeTableViewCell.swift; sourceTree = "<group>"; };
+		5557809D1EED6A8E00BA253B /* PracticeTaskTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PracticeTaskTableViewCell.swift; sourceTree = "<group>"; };
+		5557809F1EED6AB100BA253B /* FormulaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormulaTableViewCell.swift; sourceTree = "<group>"; };
+		555780A11EED6AC400BA253B /* ResultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
+		555780A31EED74F100BA253B /* EnterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterViewController.swift; sourceTree = "<group>"; };
+		555780A81EED83A900BA253B /* RegisterHomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterHomeModel.swift; sourceTree = "<group>"; };
+		555780AA1EED855900BA253B /* RegisterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
+		555780AC1EED8AB300BA253B /* TopicModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicModel.swift; sourceTree = "<group>"; };
+		555780AE1EEDCA3000BA253B /* TaskModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		555780B01EEDCA3E00BA253B /* SolutionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolutionModel.swift; sourceTree = "<group>"; };
+		555780B21EEDCA6300BA253B /* AnswerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerModel.swift; sourceTree = "<group>"; };
+		555780B41EEDCA7800BA253B /* FormulaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormulaModel.swift; sourceTree = "<group>"; };
+		555780B61EEDCA8A00BA253B /* ExtraInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtraInfoModel.swift; sourceTree = "<group>"; };
+		555780B81EEDCAAA00BA253B /* PointModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointModel.swift; sourceTree = "<group>"; };
+		5558B9F11EE99C5500E5E381 /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		5558B9F31EE99C6700E5E381 /* PartModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartModel.swift; sourceTree = "<group>"; };
+		556C3DDB1EB8D60A00B1CE02 /* AnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +120,55 @@
 		553520371EB7A823005ABE4B /* Mathematical Analysis */ = {
 			isa = PBXGroup;
 			children = (
+				555780A71EED82F100BA253B /* Models */,
 				553520381EB7A824005ABE4B /* AppDelegate.swift */,
+				555780A31EED74F100BA253B /* EnterViewController.swift */,
 				5535203A1EB7A824005ABE4B /* ViewController.swift */,
 				5535203C1EB7A824005ABE4B /* Main.storyboard */,
 				5535203F1EB7A824005ABE4B /* Assets.xcassets */,
 				553520411EB7A824005ABE4B /* LaunchScreen.storyboard */,
 				553520441EB7A824005ABE4B /* Info.plist */,
+				5535204A1EB7AC94005ABE4B /* TableViewController.swift */,
+				5535204E1EB7ACD9005ABE4B /* TableViewCell.swift */,
+				553520541EB7B979005ABE4B /* ItemVC.swift */,
+				556C3DDB1EB8D60A00B1CE02 /* AnswerViewController.swift */,
+				5557807F1EED66FB00BA253B /* TopicTableViewController.swift */,
+				555780951EED6A3D00BA253B /* TopicTableViewCell.swift */,
+				555780811EED671700BA253B /* PointTableViewController.swift */,
+				555780971EED6A4B00BA253B /* PointTableViewCell.swift */,
+				555780831EED673D00BA253B /* PointViewController.swift */,
+				555780871EED677700BA253B /* ExtraInfoViewController.swift */,
+				555780891EED679D00BA253B /* PracticeTableViewController.swift */,
+				5557809B1EED6A7B00BA253B /* PracticeTableViewCell.swift */,
+				5557808B1EED67AC00BA253B /* PracticeTaskTableViewController.swift */,
+				5557809D1EED6A8E00BA253B /* PracticeTaskTableViewCell.swift */,
+				5557808D1EED67CD00BA253B /* SolutionViewController.swift */,
+				5557808F1EED67E800BA253B /* FormulaViewController.swift */,
+				555780911EED680200BA253B /* FormulaTableViewController.swift */,
+				5557809F1EED6AB100BA253B /* FormulaTableViewCell.swift */,
+				555780931EED681600BA253B /* ResultTableViewController.swift */,
+				555780A11EED6AC400BA253B /* ResultTableViewCell.swift */,
 			);
 			path = "Mathematical Analysis";
+			sourceTree = "<group>";
+		};
+		555780A71EED82F100BA253B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5558B9F11EE99C5500E5E381 /* HomeModel.swift */,
+				5558B9F31EE99C6700E5E381 /* PartModel.swift */,
+				555780A81EED83A900BA253B /* RegisterHomeModel.swift */,
+				555780AA1EED855900BA253B /* RegisterModel.swift */,
+				555780AC1EED8AB300BA253B /* TopicModel.swift */,
+				555780AE1EEDCA3000BA253B /* TaskModel.swift */,
+				555780B01EEDCA3E00BA253B /* SolutionModel.swift */,
+				555780B21EEDCA6300BA253B /* AnswerModel.swift */,
+				555780B41EEDCA7800BA253B /* FormulaModel.swift */,
+				555780B61EEDCA8A00BA253B /* ExtraInfoModel.swift */,
+				555780B81EEDCAAA00BA253B /* PointModel.swift */,
+				554E5A2D1EEEBE5E0092B1A8 /* UserActivityModel.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +203,7 @@
 				TargetAttributes = {
 					553520341EB7A823005ABE4B = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = NC3NUX9MDW;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,8 +244,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				556C3DDC1EB8D60A00B1CE02 /* AnswerViewController.swift in Sources */,
+				555780881EED677700BA253B /* ExtraInfoViewController.swift in Sources */,
+				555780B71EEDCA8A00BA253B /* ExtraInfoModel.swift in Sources */,
+				5557808A1EED679D00BA253B /* PracticeTableViewController.swift in Sources */,
+				555780B31EEDCA6300BA253B /* AnswerModel.swift in Sources */,
+				5557808E1EED67CD00BA253B /* SolutionViewController.swift in Sources */,
+				554E5A2E1EEEBE5E0092B1A8 /* UserActivityModel.swift in Sources */,
+				555780801EED66FB00BA253B /* TopicTableViewController.swift in Sources */,
+				555780AD1EED8AB300BA253B /* TopicModel.swift in Sources */,
+				555780961EED6A3D00BA253B /* TopicTableViewCell.swift in Sources */,
 				5535203B1EB7A824005ABE4B /* ViewController.swift in Sources */,
+				5558B9F41EE99C6700E5E381 /* PartModel.swift in Sources */,
+				555780B51EEDCA7800BA253B /* FormulaModel.swift in Sources */,
+				555780A41EED74F100BA253B /* EnterViewController.swift in Sources */,
+				555780A01EED6AB100BA253B /* FormulaTableViewCell.swift in Sources */,
+				555780821EED671700BA253B /* PointTableViewController.swift in Sources */,
+				555780841EED673D00BA253B /* PointViewController.swift in Sources */,
+				555780A91EED83A900BA253B /* RegisterHomeModel.swift in Sources */,
+				555780AF1EEDCA3000BA253B /* TaskModel.swift in Sources */,
+				5535204F1EB7ACD9005ABE4B /* TableViewCell.swift in Sources */,
+				5557808C1EED67AC00BA253B /* PracticeTaskTableViewController.swift in Sources */,
+				5558B9F21EE99C5500E5E381 /* HomeModel.swift in Sources */,
+				555780B91EEDCAAA00BA253B /* PointModel.swift in Sources */,
+				5557809C1EED6A7B00BA253B /* PracticeTableViewCell.swift in Sources */,
+				555780901EED67E800BA253B /* FormulaViewController.swift in Sources */,
+				555780AB1EED855900BA253B /* RegisterModel.swift in Sources */,
+				5535204B1EB7AC94005ABE4B /* TableViewController.swift in Sources */,
+				555780981EED6A4B00BA253B /* PointTableViewCell.swift in Sources */,
 				553520391EB7A824005ABE4B /* AppDelegate.swift in Sources */,
+				5557809E1EED6A8E00BA253B /* PracticeTaskTableViewCell.swift in Sources */,
+				555780921EED680200BA253B /* FormulaTableViewController.swift in Sources */,
+				555780A21EED6AC400BA253B /* ResultTableViewCell.swift in Sources */,
+				555780B11EEDCA3E00BA253B /* SolutionModel.swift in Sources */,
+				555780941EED681600BA253B /* ResultTableViewController.swift in Sources */,
+				553520551EB7B979005ABE4B /* ItemVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,11 +399,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NC3NUX9MDW;
 				INFOPLIST_FILE = "Mathematical Analysis/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "apple.Mathematical-Analysis";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -270,11 +414,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NC3NUX9MDW;
 				INFOPLIST_FILE = "Mathematical Analysis/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "apple.Mathematical-Analysis";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -297,6 +444,7 @@
 				553520491EB7A824005ABE4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
